@@ -1,0 +1,124 @@
+
+/** {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/Screenshot\ 2024-01-30\ 165237.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh; /* Ensure full height 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.form-box {
+    width: 90%;
+    max-width: 600px;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 300px 200px 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+}
+
+.input-field i {
+    position: absolute;  
+    top: 12px;
+    left: 8px;
+    font-size: 18px;
+    color: #fff; /* Set icon color to white */
+}
+
+.buttons button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #323232;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons button:nth-child(2) {
+    background-color: #2d3731;
+}*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    background-image: url(img/Screenshot\ 2024-01-30\ 165237.png);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-900px,-190px);
+}
+
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 90px;
+    padding-top: 90px;
+    padding-bottom: 300px;
+    text-align: center;
+    box-shadow: 10 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
